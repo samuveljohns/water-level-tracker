@@ -247,7 +247,7 @@ class TrackingState extends State<TrackingInput> {
             FlareActor(
               "assets/WaterArtboards.flr",
               controller: _flareController,
-              fit: BoxFit.contain,
+              fit: BoxFit.cover,
               animation: "iceboy",
               artboard: "Artboard",
             ),
